@@ -1,0 +1,12 @@
+argparse==1.2.1
+certifi==2017.7.27.1
+chardet==3.0.4
+idna==2.6
+peewee==2.10.2
+python-dateutil==2.6.1
+requests==2.18.4
+six==1.11.0
+telepot==12.4
+urllib3==1.22
+websocket-client==0.44.0
+wsgiref==0.1.2
