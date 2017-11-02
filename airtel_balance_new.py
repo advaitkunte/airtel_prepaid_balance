@@ -22,8 +22,9 @@ import telepot
 
 import logging
 from logging.config import fileConfig
+PATH = os.path.dirname(os.path.abspath(__file__))
 
-fileConfig('logging_config.ini')
+fileConfig(PATH+'/logging_config.ini')
 logger = logging.getLogger()
 logging.getLogger("requests").setLevel(logging.WARNING)
 requests.packages.urllib3.disable_warnings()
